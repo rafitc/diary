@@ -1,5 +1,6 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
+import dailyUpdates from "../../public/daily_updates.json";
 
 export const DATA = {
   name: "Rafi Rasheed",
@@ -14,7 +15,7 @@ export const DATA = {
   ],
   contact: {
     email: "mail@rafirasheed.co",
-    tel: "++91 9747 165032",
+    tel: "+91 9747 165032",
     social: {
       GitHub: {
         name: "GitHub",
@@ -46,38 +47,5 @@ export const DATA = {
       },
     },
   },
-  hackathons: [
-    {
-      title: "HackDavis",
-      dates: "January 01 - 2024",
-      location: "Davis, California",
-      description:
-        "Developed a mobile application which allocates a daily carbon emission allowance to users to move towards a sustainable environment.",
-      image: "https://cdn-icons-png.flaticon.com/512/8832/8832880.png",
-      win: "Best Data Hack",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
-      links: [
-        {
-          title: "Devpost",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://devpost.com/software/my6footprint",
-        },
-        {
-          title: "ML",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/my6footprint-machine-learning",
-        },
-        {
-          title: "iOS",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/CarbonWallet",
-        },
-        {
-          title: "Server",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/wallet6-server",
-        },
-      ],
-    },
-  ],
+  daily_updates: dailyUpdates,
 } as const;

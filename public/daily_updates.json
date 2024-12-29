@@ -1,0 +1,14 @@
+[
+  {
+    "title": "My first Diary",
+    "dates": "January 01 - 2025",
+    "tags": "food, experience, life",
+    "description": "Hello world",
+    "image": "../images/1.jpg",
+    "links": [
+      {
+        "href": "/diary/2024-01-01"
+      }
+    ]
+  }
+]

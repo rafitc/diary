@@ -24,7 +24,7 @@ export default function Page() {
           </BlurFade>
           <BlurFade delay={BLUR_FADE_DELAY * 14}>
             <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
-              {DATA.hackathons.map((project, id) => (
+              {DATA.daily_updates.map((project, id) => (
                 <BlurFade
                   key={project.title + project.dates}
                   delay={BLUR_FADE_DELAY * 15 + id * 0.05}
@@ -32,7 +32,7 @@ export default function Page() {
                   <HackathonCard
                     title={project.title}
                     description={project.description}
-                    location={project.location}
+                    location={project.tags}
                     dates={project.dates}
                     image={project.image}
                     links={project.links}

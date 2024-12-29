@@ -1,6 +1,7 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
+import { Icons } from "@/components/icons";
 
 interface Props {
   title: string;
@@ -9,8 +10,6 @@ interface Props {
   location: string;
   image?: string;
   links?: readonly {
-    icon: React.ReactNode;
-    title: string;
     href: string;
   }[];
 }
@@ -50,8 +49,8 @@ export function HackathonCard({
           {links?.map((link, idx) => (
             <Link href={link.href} key={idx}>
               <Badge key={idx} title={link.title} className="flex gap-2">
-                {link.icon}
-                {link.title}
+                <Icons.globe className="h-4 w-4" />
+                Read More
               </Badge>
             </Link>
           ))}

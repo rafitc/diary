@@ -1,4 +1,4 @@
-import { getBlogPosts, getPost } from "@/data/blog";
+import { getBlogPosts, getPost } from "@/data/diary";
 import { DATA } from "@/data/resume";
 import { formatDate } from "@/lib/utils";
 import type { Metadata } from "next";
@@ -35,7 +35,7 @@ export async function generateMetadata({
       description,
       type: "article",
       publishedTime,
-      url: `${DATA.url}/blog/${post.slug}`,
+      url: `${DATA.url}/diary/${post.slug}`,
       images: [
         {
           url: ogImage,
@@ -65,7 +65,7 @@ export default async function Blog({
   }
 
   return (
-    <section id="blog">
+    <section id="diary">
       <script
         type="application/ld+json"
         suppressHydrationWarning
@@ -80,7 +80,7 @@ export default async function Blog({
             image: post.metadata.image
               ? `${DATA.url}${post.metadata.image}`
               : `${DATA.url}/og?title=${post.metadata.title}`,
-            url: `${DATA.url}/blog/${post.slug}`,
+            url: `${DATA.url}/diary/${post.slug}`,
             author: {
               "@type": "Person",
               name: DATA.name,

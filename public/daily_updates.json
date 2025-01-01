@@ -1,14 +1,26 @@
 [
-  {
-    "title": "My first Diary",
-    "dates": "January 01 - 2025",
-    "tags": "food, experience, life",
-    "description": "Hello world",
-    "image": "../images/1.jpg",
-    "links": [
-      {
-        "href": "/diary/2024-01-01"
-      }
-    ]
-  }
+    {
+        "title": "My Diary Is Finally Released",
+        "dates": "01 January (Wednesday) - 2025",
+        "description": "A person expresses excitement and happiness about the public release of their diary and shares their joyful experience of visiting Vidhan Soudha with friends and wishing everyone a happy new year.",
+        "image": "../images/2025-01-01/AgACAgUAAxkBAAOjZ3TsTxUFW1o24X9Enayw2ZcIqhwAAgrDMRtBMKhX_sawXV4vIwwBAAMCAAN5AAM2BA.jpg",
+        "tags": "",
+        "links": [
+            {
+                "href": "/diary/2025-01-01"
+            }
+        ]
+    },
+    {
+        "title": "My Diary Is Finally Out",
+        "dates": "01 January (Wednesday) - 2025",
+        "description": "New Year Brings Joy with Diary Release",
+        "image": "",
+        "tags": "",
+        "links": [
+            {
+                "href": "/diary/2025-01-01"
+            }
+        ]
+    }
 ]

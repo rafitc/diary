@@ -1,5 +1,17 @@
 [
     {
+        "title": "Returning to Familiar Ground",
+        "dates": "03 January (Friday) - 2025",
+        "description": "Returning to a familiar place",
+        "image": "",
+        "tags": "",
+        "links": [
+            {
+                "href": "/diary/2025-01-03"
+            }
+        ]
+    },
+    {
         "title": "My Diary Application Deployment in Racknerd Was a Huge Success",
         "dates": "02 January (Thursday) - 2025",
         "description": "Diary App Deployment Success\nI deployed my diary application in Racknerd and received amazing feedback and suggestions from friends which motivated me to build and ship something and the application is running smoothly",

@@ -1,5 +1,17 @@
 [
     {
+        "title": "My First Day as a Backend Engineer at Bhive Workspace",
+        "dates": "11 March (Tuesday) - 2025",
+        "description": "Joined new company as Backend Engineer with smooth onboarding and friendly team.",
+        "image": "../images/2025-03-11/AgACAgUAAxkBAAIBE2fQfWK-1Y-5jkrz9atuZQfF3ApFAAJTyzEb6y2BVi31ON6httPuAQADAgADeQADNgQ.jpg",
+        "tags": "",
+        "links": [
+            {
+                "href": "/diary/2025-03-11"
+            }
+        ]
+    },
+    {
         "title": "My Last Day at Neewee",
         "dates": "10 March (Monday) - 2025",
         "description": "Left first job after college",

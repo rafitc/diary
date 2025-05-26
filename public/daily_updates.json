@@ -1,5 +1,17 @@
 [
     {
+        "title": "A Fun Filled Weekend Getaway to Mysore",
+        "dates": "25 May (Sunday) - 2025",
+        "description": "Fun filled weekend with colleagues in Mysore.",
+        "image": "../images/2025-05-25/AgACAgUAAxkBAAIBR2gzOnRVIVDwlO3_6hLtQToMeBM3AAITyDEbkJ-YVb6XXEhTtBYnAQADAgADeQADNgQ.jpg",
+        "tags": "",
+        "links": [
+            {
+                "href": "/diary/2025-05-25"
+            }
+        ]
+    },
+    {
         "title": "My Workspace Upgrade is Complete",
         "dates": "24 April (Thursday) - 2025",
         "description": "Upgraded workspace setup complete",
